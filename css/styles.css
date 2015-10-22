@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat';
+  letter-spacing: 0.25em;
+  background-color: lightgray;
+  color: gray;
+  margin-top: 5em;
+}
+
+h1 {
+  text-shadow: 1px 1px white;
+}
+
+hr {
+  max-width: 13em;
+}
+
+#login {
+  margin-top: 1.5em;
+  padding: 1em;
+  font-size: 1em;
+  font-family: 'Montserrat';
+  border-radius: 1em;
+  color: white;
+}
+
+#login:hover {
+  cursor: pointer;
+}
