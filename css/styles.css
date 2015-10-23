@@ -37,7 +37,7 @@ hr {
 }
 
 input {
-  width: 9em;
+  width: 8.5em;
   font-family: 'Special Elite';
   padding: 0.5em;
   margin-bottom: 1em;
@@ -69,7 +69,7 @@ input {
 }
 
 .draw_logo {
-  margin-left: 2em;
+  margin-left: 1.5em;
   float: left;
   text-shadow: 1px 1px white;
   font-family: 'Amatic SC';
@@ -85,7 +85,7 @@ input {
   display: inline;
   font-size: 1.25em;
   margin-top: 3.5em;
-  margin-right: 2em;
+  margin-right: 1.75em;
   text-align: right;
   float: right;
   font-family: 'Special Elite';
@@ -105,6 +105,20 @@ input {
   width: 900px;
   height: 500px;
   border: 10px solid white;
+}
+
+.title_wrap {
+  font-family: 'Special Elite';
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  text-align: left;
+}
+
+.draw_titles {
+  margin-right: 11.5em;
+  display: inline;
+  color: white;
+  text-shadow: 1px 1px tan;
 }
 
 .save_draw {
