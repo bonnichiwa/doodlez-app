@@ -53,7 +53,7 @@ hr {
 }
 
 .draw_logo {
-  margin-left: 1em;
+  margin-left: 2em;
   float: left;
   text-shadow: 1px 1px white;
   font-family: 'Amatic SC';
@@ -75,8 +75,18 @@ hr {
   font-family: 'Special Elite';
 }
 
+.draw_nav:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.canvas_wrap {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
 .draw_canvas {
-  width: 1000px;
+  width: 900px;
   height: 500px;
   border: 10px solid white;
 }
@@ -84,6 +94,13 @@ hr {
 .save_draw {
   float: right;
   margin-right: 7em;
+  margin-bottom: 5em;
+}
+
+.write_canvas {
+  width: 300px;
+  height: 500px;
+  border: 10px solid white;
 }
 
 

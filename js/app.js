@@ -7,4 +7,10 @@ app.config(function($routeProvider){
   .when('/draw', {
     templateUrl: 'draw.html'
   })
+  .when('/logs', {
+    templateUrl: 'logs.html'
+  })
+  .when('/logout', {
+    templateUrl: 'logout.html'
+  })
 })
