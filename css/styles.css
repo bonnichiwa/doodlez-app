@@ -17,6 +17,8 @@ hr {
   max-width: 13em;
 }
 
+/* Login Template */
+
 .login_box {
   border: 10px solid white;
   max-width: 20em;
@@ -25,6 +27,20 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding: 2em;
+}
+
+.login_info {
+  margin-top: 1em;
+  width: 17em;
+  font-family: 'Special Elite';
+  text-align: right
+}
+
+input {
+  width: 9em;
+  font-family: 'Special Elite';
+  padding: 0.5em;
+  margin-bottom: 1em;
 }
 
 .button {
