@@ -1,29 +1,89 @@
 body {
   text-align: center;
-  font-family: 'Montserrat';
   letter-spacing: 0.25em;
-  background-color: lightgray;
-  color: gray;
-  margin-top: 5em;
+  background-color: wheat;
+  color: cadetblue;
 }
 
 h1 {
+  padding-top: 1.5em;
   text-shadow: 1px 1px white;
+  font-family: 'Amatic SC';
+  font-size: 3em;
+  font-weight: 700;
 }
 
 hr {
   max-width: 13em;
 }
 
-#login {
-  margin-top: 1.5em;
-  padding: 1em;
-  font-size: 1em;
-  font-family: 'Montserrat';
-  border-radius: 1em;
-  color: white;
+.login_box {
+  border: 10px solid white;
+  max-width: 20em;
+  height: 25em;
+  margin-top: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
 }
 
-#login:hover {
-  cursor: pointer;
+.button {
+  margin-top: 2em;
+  padding: 0.75em;
+  font-size: 1em;
+  font-family: 'Special Elite';
+  border-radius: 1em;
+  border: none;
+  color: white;
+  background-color: cadetblue;
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px darkgray;
 }
+
+.button:hover {
+  cursor: pointer;
+  padding: 1em;
+  background-color: tan;
+  transition: 0.5s;
+}
+
+/* Draw template */
+.draw_menu {
+  border: 1px solid green;
+}
+
+.draw_logo {
+  margin-left: 1em;
+  float: left;
+  text-shadow: 1px 1px white;
+  font-family: 'Amatic SC';
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.draw_wrap {
+  margin-right: 5em;
+}
+
+.draw_nav{
+  display: inline;
+  font-size: 1.25em;
+  margin-top: 3.5em;
+  margin-right: 2em;
+  text-align: right;
+  float: right;
+  font-family: 'Special Elite';
+}
+
+.draw_canvas {
+  width: 1000px;
+  height: 500px;
+  border: 10px solid white;
+}
+
+.save_draw {
+  float: right;
+  margin-right: 7em;
+}
+
+
