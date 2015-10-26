@@ -2,15 +2,15 @@ var app = angular.module('doodlesApp', ['ngRoute']);
 
 app.config(function($routeProvider){
   $routeProvider.when('/', {
-    templateUrl: 'login.html'
+    templateUrl: 'templates/login.html'
   })
   .when('/draw', {
-    templateUrl: 'draw.html'
+    templateUrl: 'templates/draw.html'
   })
   .when('/logs', {
-    templateUrl: 'logs.html'
+    templateUrl: 'templates/logs.html'
   })
   .when('/logout', {
-    templateUrl: 'logout.html'
+    templateUrl: 'templates/logout.html'
   })
 })
